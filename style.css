@@ -33,6 +33,10 @@ div.cancel-btn{
 .red {
     color: #E91111;
 }
+.equal {
+    background: #56AAB9;
+    color: #000;
+}
 div.cancel-btn img {
     position: absolute;
     width: 9%;
