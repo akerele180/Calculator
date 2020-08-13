@@ -15,7 +15,9 @@ body {
     text-align: center;
 }
 #display {
-    height: 134px;
+    height: 105px;
+    text-align: end;
+    margin-right: 25px;
 }
 div.cancel-btn{
     position: relative;
@@ -37,7 +39,11 @@ div.cancel-btn{
     background: #56AAB9;
     color: #000;
 }
+.btn:hover {
+    cursor: pointer;
+}
 div.cancel-btn img {
+    cursor: pointer;
     position: absolute;
     width: 9%;
     bottom: 31px;
