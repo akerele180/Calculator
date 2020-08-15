@@ -11,29 +11,30 @@
     <title>CALCULATOR</title>
 </head>
 <body>
-    <P id="display">My answer</P>
-    <div class="cancel-btn"><img src="./images/cancel.svg"/></div>
+    <P id="display">WELCOME HERE!!!</P>
+    
+    <div class="cancel-btn"><img onclick="pops()" src="./images/cancel.svg"/></div>
     <section>
-        <div class="btn red">C</div>
-        <div class="btn blue">()</div>
-        <div class="btn blue">%</div>
-        <div class="btn blue">/</div>
-        <div class="btn">7</div>
-        <div class="btn">8</div>
-        <div class="btn">9</div>
-        <div class="btn blue">X</div>
-        <div class="btn">4</div>
-        <div class="btn">5</div>
-        <div class="btn">6</div>
-        <div class="btn blue">-</div>
-        <div class="btn">1</div>
-        <div class="btn">2</div>
-        <div class="btn">3</div>
-        <div class="btn blue">+</div>
-        <div class="btn size"><span>+/-</span></div>
-        <div class="btn">0</div>
-        <div class="btn">.</div>
-        <div class="btn equal" onclick="make()">=</div>
+        <div onclick="clearScreen()" class="btn red">C</div>
+        <div onclick="parenthesis()" class="btn blue">()</div>
+        <div onclick="percentage()" class="btn blue">%</div>
+        <div onclick="divisor()" class="btn blue">/</div>
+        <div onclick="seven()" class="btn">7</div>
+        <div onclick="eight()" class="btn">8</div>
+        <div onclick="nine()" class="btn">9</div>
+        <div onclick="multiplier()" class="btn blue">X</div>
+        <div onclick="four()" class="btn">4</div>
+        <div onclick="five()" class="btn">5</div>
+        <div onclick="six()" class="btn">6</div>
+        <div onclick="minus()" class="btn blue">-</div>
+        <div onclick="one()" class="btn">1</div>
+        <div onclick="two()" class="btn">2</div>
+        <div onclick="three()" class="btn">3</div>
+        <div onclick="plus()" class="btn blue">+</div>
+        <div onclick="doubleZero()" class="btn ">00</div>
+        <div onclick="zero()" class="btn">0</div>
+        <div onclick="dot()" class="btn">.</div>
+        <div onclick="answer()" class="btn equal">=</div>
     </section>
     
 </body>
