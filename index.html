@@ -3,39 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/icon.jpg">
     <link rel="stylesheet" href="style.css" type="text/css">
 
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-    <script src="Javascript.js"></script>
-    <title>CALCULATOR</title>
+    
+    <title>Calculator</title>
 </head>
 <body>
-    <P id="display">WELCOME HERE!!!</P>
+    <p id="display">WELCOME HERE!!!</p>
     
-    <div class="cancel-btn"><img onclick="pops()" src="./images/cancel.svg"/></div>
+    <div class="cancel-btn"><img onclick="backSpace()" src="./images/cancel.svg"/></div>
+
     <section>
-        <div onclick="clearScreen()" class="btn red">C</div>
-        <div onclick="parenthesis()" class="btn blue">()</div>
-        <div onclick="percentage()" class="btn blue">%</div>
-        <div onclick="divisor()" class="btn blue">/</div>
-        <div onclick="seven()" class="btn">7</div>
-        <div onclick="eight()" class="btn">8</div>
-        <div onclick="nine()" class="btn">9</div>
-        <div onclick="multiplier()" class="btn blue">X</div>
-        <div onclick="four()" class="btn">4</div>
-        <div onclick="five()" class="btn">5</div>
-        <div onclick="six()" class="btn">6</div>
-        <div onclick="minus()" class="btn blue">-</div>
-        <div onclick="one()" class="btn">1</div>
-        <div onclick="two()" class="btn">2</div>
-        <div onclick="three()" class="btn">3</div>
-        <div onclick="plus()" class="btn blue">+</div>
-        <div onclick="doubleZero()" class="btn ">00</div>
-        <div onclick="zero()" class="btn">0</div>
-        <div onclick="dot()" class="btn">.</div>
-        <div onclick="answer()" class="btn equal">=</div>
+        <input onclick="clearScreen()" type="button" id="red" class="blue" value="C">
+        <input onclick="display('%')" type="button" id="" class="blue" value="%">                
+        <input onclick="display('()')" type="button" id="" class="blue" value="()">
+        <input onclick="display('/')" type="button" id="" class="yellow" value="/">
+        <input onclick="display('7')" type="button" id="" class="" value="7">
+        <input onclick="display('8')" type="button" id="" class="" value="8">
+        <input onclick="display('9')" type="button" id="" class="" value="9">
+        <input onclick="display('*')" type="button" id="" class="yellow" value="*">
+        <input onclick="display('4')" type="button" id="" class="" value="4">
+        <input onclick="display('5')" type="button" id="" class="" value="5">
+        <input onclick="display('6')" type="button" id="" class="" value="6">
+        <input onclick="display('-')" type="button" id="" class="yellow" value="-">
+        <input onclick="display('1')" type="button" id="" class="" value="1">
+        <input onclick="display('2')" type="button" id="" class="" value="2">
+        <input onclick="display('3')" type="button" id="" class="" value="3">
+        <input onclick="display('+')" type="button" id="" class="yellow" value="+">
+        <input onclick="display('00')" type="button" id="" class="" value="00">
+        <input onclick="display('0')" type="button" id="" class="" value="0">
+        <input onclick="display('.')" type="button" id="" class="" value=".">
+        <input onclick="display('=')" type="button" id="" class="yellow" value="=">
     </section>
-    
+    <h4>Coded by Akerele, Tosin J.</h4>
+
+    <script src="main.js"></script>
 </body>
 </html>
